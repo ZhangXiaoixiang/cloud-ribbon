@@ -1,0 +1,9 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: cloud-invoker
+eureka:
+  instance:
+    hostname: localhost
+    default-address-resolution-order:  http://localhost:8761/eureka/
